@@ -31,13 +31,13 @@ To set the working directory as "/Alarm/R"
 ## Output
 * reformatted HR data, step data, and smoothed RHR data are saved in subfolder /output/clean
 
-* online result (based on CuSum) and offline result (based on RHR-diff) for each chunk are saved in subfolder /output/result
+* online result (based on CuSum) and offline result (based on RHR-diff) for each chunk data are saved in subfolder /output/result
 
 * online summary table, offline summary table, and daily evaluation table for all the data are saved in subfolder /output/table
 
-* notice that the CuSum alarm cannot run due to lack of enough data for some some is saved in subfolder /output/note
+* notice that the CuSum alarm cannot run due to lack of enough data for some case is saved in subfolder /output/note
 
-* online alarm figure combined with offline detection figure for each chunk is saved in subfolder /output/figure
+* online alarm figure combined with offline detection figure for each chunk data is saved in subfolder /output/figure
 
 
 
