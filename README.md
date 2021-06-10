@@ -12,14 +12,19 @@ Alarm is a R package of a wearable alarming system based on CuSum statistics.
 
 ## Usage
 * to set the working directory as "/Alarm/R"
+
 `source("online_cusum_alarm_fn.R")`
 
 `online.alarming.fn(peo.id.1, dir.hr, dir.step, track.par=12, gap.thres = 14)`
 
 --peo.id.1 individual ID
+
 --dir.hr directory of raw heart rate data
+
 --dir.step directory of raw step data
+
 --track.par tracking parameter (default: 12 hours); tracking the trend of CuSum statistics once the initial alarm is called
+
 --gap.thres missing data gap (default: 14 days); if the missing data gap is greater than 14 days, to restart the alarm system
 
 The evaluation is processed through chunks of data (2 * 28 days). 
