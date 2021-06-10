@@ -11,7 +11,7 @@ Alarm is a R package of a wearable alarming system based on CuSum statistics.
 * R function file: "online_cusum_alarm_fn.R"
 
 ## Usage
-* to set the working directory as "/Alarm/R"
+To set the working directory as "/Alarm/R"
 
 `source("online_cusum_alarm_fn.R")`
 
