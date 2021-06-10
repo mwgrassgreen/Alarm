@@ -15,17 +15,17 @@ To set the working directory as "/Alarm/R"
 
 `source("online_cusum_alarm_fn.R")`
 
-`online.alarming.fn(peo.id.1, dir.hr, dir.step, track.par=12, gap.thres = 14)`
+`online.alarming.fn(peo.id.1, dir.hr, dir.step, track.par = 12, gap.thres = 14)`
 
---peo.id.1 individual ID
+--peo.id.1  individual ID
 
---dir.hr directory of raw heart rate data
+--dir.hr  directory of raw heart rate data
 
---dir.step directory of raw step data
+--dir.step  directory of raw step data
 
---track.par tracking parameter (default: 12 hours)
+--track.par  tracking parameter (default: 12 hours)
 
---gap.thres missing data gap (default: 14 days)
+--gap.thres  missing data gap (default: 14 days)
 
 
 ## Output
