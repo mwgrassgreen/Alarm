@@ -33,11 +33,11 @@ To set the working directory as "/Alarm/R"
 
 * online result (based on CuSum) and offline result (based on RHR-diff) for each chunk data are saved in subfolder /output/result
 
-* online summary table, offline summary table, and daily evaluation table for all the data are saved in subfolder /output/table
-
 * notice that the CuSum alarm cannot run due to lack of enough data for some case is saved in subfolder /output/note
 
 * online alarm figure combined with offline detection figure for each chunk data is saved in subfolder /output/figure
+
+* online summary table, offline summary table, and daily evaluation table for all the data are saved in subfolder /output/table
 
 
 
