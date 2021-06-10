@@ -23,11 +23,9 @@ To set the working directory as "/Alarm/R"
 
 --dir.step directory of raw step data
 
---track.par tracking parameter (default: 12 hours); tracking the trend of CuSum statistics once the initial alarm is called
+--track.par tracking parameter (default: 12 hours)
 
---gap.thres missing data gap (default: 14 days); if the missing data gap is greater than 14 days, to restart the alarm system
-
-The evaluation is processed through chunks of data (2 * 28 days). 
+--gap.thres missing data gap (default: 14 days)
 
 
 ## Output
