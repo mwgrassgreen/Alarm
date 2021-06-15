@@ -1,6 +1,6 @@
 # Alarm
 
-Alarm is a R package of a wearable alarming system for abnormal resting heart rates (RHR) based on CuSum statistics. 
+Alarm is a R package of CuSum alarming system for abnormal resting heart rates (RHR) based on Fitbit smartwatch data. 
 
 
 ## Dependence
